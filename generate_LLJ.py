@@ -1,6 +1,6 @@
 def generate_LLJ(z, alpha, zjet, Cs, zr, uref, jetmax, val, const_intensity, limits = []):
     temp = []
-    for i in range(0, 200000):
+    for i in range(0, 200000): # How many LLJs do you want to make
         if const_intensity == True:
             zj = random.normalvariate(zjet, 90)
             zref = random.normalvariate(zr, 90)
