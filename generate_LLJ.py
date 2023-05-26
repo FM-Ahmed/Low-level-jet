@@ -56,7 +56,7 @@ def generate_LLJ(z, alpha, zjet, Cs, zr, uref, jetmax, val, const_intensity, lim
   
 # find_nearest is a function which finds the closest number in an array when a value is provided.
 # This function is only necessary if the user is providing limits. If len(limits) == 0, this function is not used.
-# The find_nearest function is not included in this repository.
+# The find_nearest function is not included in this repository. However, any arbitrary find_nearest function can be used here.
 
 # example function inputs-----------------------------------------------------------------------------------
 z = np.linspace(10, 570, 113) # height array, zr should be in array
